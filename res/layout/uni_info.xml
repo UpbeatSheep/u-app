@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+			<Button android:background="@drawable/btn_buildings" android:id="@+id/button1" style="@style/Tile" android:layout_height="@dimen/tile_height" android:text="@string/btn_buildings" android:layout_width="fill_parent" android:layout_weight="1"></Button>
+		</LinearLayout>
+		    <TextView android:text="An Introduction" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_building_name" android:textSize="25dip" android:layout_marginLeft="@dimen/building_margin" android:layout_marginTop="@dimen/building_margin"></TextView>
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content" android:layout_weight="1" android:paddingLeft="@dimen/building_margin">
+      
+            <TextView android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" android:id="@+id/uni_info" android:textSize="15dip"></TextView>
+    
+    </ScrollView>
+	</LinearLayout>

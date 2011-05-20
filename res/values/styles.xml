@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style parent="android:Theme.Light" name="MainTheme">
+    <item name="android:windowBackground">@drawable/bg_main</item>
+      <item name="android:textColor">@color/uni_main</item>
+     <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+    <style parent="MainTheme" name="UPSUTheme">
+    <item name="android:windowBackground">@drawable/bg_upsu</item>
+    <item name="android:textColor">#CCCCCC</item>
+    </style>
+    <style parent="MainTheme" name="UniTheme">
+    <item name="android:windowBackground">@drawable/bg_uni</item>
+    <item name="android:textColor">#FFFFFF</item>
+     <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+    <style name="Tile" parent="UPSUTheme">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="Feed">
+    </style>
+</resources>

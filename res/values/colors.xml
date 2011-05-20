@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="UPSU_dark">#201B6D</color>
+    <color name="UPSU_light">#A2CAED</color>
+    <color name="uni_main">#FF650B</color>
+    <color name="main_bg">#4A004A</color>
+    <color name="main_txt">#000000</color>
+</resources>

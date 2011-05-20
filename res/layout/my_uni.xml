@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+  <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+		<Button android:id="@+id/btn_tulip" android:layout_width="fill_parent" style="@style/Tile" android:layout_height="@dimen/tile_height" android:layout_marginRight="@dimen/tile_padding" android:layout_marginBottom="@dimen/tile_padding" android:text="@string/btn_tulip" android:background="@drawable/btn_tulip" android:layout_weight="1"></Button>
+		<Button android:id="@+id/btn_timetables" android:layout_width="fill_parent" style="@style/Tile" android:layout_height="@dimen/tile_height" android:layout_marginLeft="@dimen/tile_padding" android:layout_marginBottom="@dimen/tile_padding" android:text="@string/btn_timetables" android:background="@drawable/btn_timetable" android:layout_weight=".8"></Button>
+       </LinearLayout>
+  <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+      <Button style="@style/Tile" android:layout_marginTop="@dimen/tile_padding" android:layout_height="@dimen/tile_height" android:layout_marginRight="@dimen/tile_padding" android:layout_width="fill_parent" android:text="@string/btn_webmail" android:id="@+id/btn_webmail" android:background="@drawable/btn_webmail" android:layout_weight=".8"></Button>
+      <Button style="@style/Tile" android:layout_height="@dimen/tile_height" android:layout_width="fill_parent" android:layout_weight="1" android:layout_marginLeft="@dimen/tile_padding" android:layout_marginTop="@dimen/tile_padding" android:text="@string/btn_lecturers" android:background="@drawable/btn_lecturers" android:id="@+id/btn_lecturers"></Button>
+  </LinearLayout>
+     
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Dashboard!</string>
+    <string name="app_name">u:app</string>
+    <string name="btn_campus_map">Campus Map</string>
+    <string name="btn_uni_info">Uni Info</string>
+    <string name="btn_societies">Societies</string>
+    <string name="btn_uni"></string>
+    <string name="btn_upsu"></string>
+    <string name="btn_my_uni">My Uni</string>
+    <string name="btn_upsu_info">UPSU Info</string>
+    <string name="btn_my_upsu">My UPSU</string>
+    <string name="btn_buildings">Buildings</string>
+    <string name="venues">Venues</string>
+    <string name="UPSU_intro">UPSU Welcomes You</string>
+    <string name="upsu_events"></string>
+    <string name="events">UPSU Events</string>
+    <string name="btn_tulip">Tulip</string>
+    <string name="btn_timetables">Timetable</string>
+    <string name="btn_webmail">Webmail</string>
+    <string name="btn_lecturers">Lecturers</string>
+    <string name="UPSU_site">UPSU Official Site</string>
+    <string name="UPSU_Sports">Sports</string>
+    <string name="UPSU_Soc">Societies</string>
+</resources>

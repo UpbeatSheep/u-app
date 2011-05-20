@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+			<Button android:layout_width="fill_parent" android:id="@+id/button1" android:layout_height="@dimen/tile_height" android:text="@string/UPSU_site" android:layout_weight="1" style="@style/Tile" android:background="@drawable/btn_upsu_logo"></Button>
+		</LinearLayout>
+		    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_building_name" android:textSize="25dip" android:layout_marginLeft="@dimen/building_margin" android:layout_marginTop="@dimen/building_margin" android:text="@string/UPSU_intro"></TextView>
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content" android:layout_weight="1" android:paddingLeft="@dimen/building_margin">
+            <TextView android:text="TextView" android:layout_width="wrap_content" android:textSize="15dip" android:layout_height="wrap_content" android:id="@+id/uni_info" android:paddingRight="10dip"></TextView>
+    
+    </ScrollView>
+	</LinearLayout>

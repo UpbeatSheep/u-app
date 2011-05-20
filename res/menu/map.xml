@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:title="See Uni" android:id="@+id/go_uni"></item><item android:id="@+id/go_home" android:title="Go Home"></item>
+    <item android:title="See UPSU" android:id="@+id/go_upsu"></item>
+    <item android:title="See all buildings" android:id="@+id/go_buildings"></item>
+</menu>

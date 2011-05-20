@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:baselineAligned="true" android:layout_height="wrap_content">
+        <Button android:background="@drawable/btn_campus_map" android:layout_weight="1" style="@style/Tile" android:id="@+id/btn_campus_map" android:layout_width="fill_parent" android:text="@string/btn_campus_map" android:layout_marginBottom="@dimen/tile_padding" android:layout_height="@dimen/tile_height"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+        <Button android:id="@+id/btn_upsu_info" android:layout_weight="1" android:layout_width="fill_parent" style="@style/Tile" android:background="@drawable/btn_upsu_info" android:layout_marginRight="@dimen/tile_padding" android:layout_marginTop="@dimen/tile_padding" android:text="@string/btn_upsu_info" android:layout_height="@dimen/tile_height"></Button>
+		<Button android:id="@+id/btn_my_upsu" android:layout_weight="1" android:layout_width="fill_parent" style="@style/Tile" android:layout_marginLeft="@dimen/tile_padding" android:layout_marginTop="@dimen/tile_padding" android:background="@drawable/btn_my_upsu" android:text="@string/btn_my_upsu" android:layout_height="@dimen/tile_height"></Button>
+       </LinearLayout>
+    <ListView android:dividerHeight="0dip" android:id="@+id/android:list" android:layout_height="wrap_content" android:layout_width="match_parent" android:cacheColorHint="#00000000" android:layout_weight="1"></ListView>
+</LinearLayout>

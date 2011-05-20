@@ -1,0 +1,27 @@
+
+ 		
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/scrollView1">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                <LinearLayout android:id="@+id/LinearLayout03" android:layout_width="match_parent" android:paddingTop="10dip" android:paddingLeft="10dip" android:layout_height="wrap_content" android:paddingBottom="5dip" android:paddingRight="10dip">
+                    <Button android:layout_width="fill_parent" android:id="@+id/btn_ven" android:layout_height="@dimen/tile_height" android:text="@string/venues" android:layout_weight="1" style="@style/Tile" android:background="@drawable/venues"></Button>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="match_parent" android:paddingLeft="10dip" android:layout_height="wrap_content" android:paddingBottom="5dip" android:paddingRight="10dip">
+                    <Button android:layout_width="fill_parent" android:id="@+id/btn_eve" android:layout_height="@dimen/tile_height" android:text="@string/events" android:layout_weight="1" android:padding="5dip" style="@style/Tile" android:background="@drawable/events"></Button>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="match_parent" android:paddingLeft="10dip" android:layout_height="wrap_content" android:paddingBottom="5dip" android:paddingRight="10dip">
+                    <Button android:layout_width="fill_parent" android:layout_height="@dimen/tile_height" android:text="@string/UPSU_Sports" android:layout_weight="1" style="@style/Tile" android:background="@drawable/sports" android:id="@+id/btn_spo"></Button>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:paddingLeft="10dip" android:layout_height="wrap_content" android:paddingBottom="5dip" android:paddingRight="10dip">
+                    <Button android:layout_width="fill_parent" android:layout_height="@dimen/tile_height" android:text="@string/UPSU_Soc" android:layout_weight="1" style="@style/Tile" android:background="@drawable/soc" android:id="@+id/btn_soc"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+	</LinearLayout>
+	
+	

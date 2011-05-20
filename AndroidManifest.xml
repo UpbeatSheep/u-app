@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1"
+      android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android" package="upbeatsheep.upsu.uapp">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@style/MainTheme">
+        <uses-library android:name="com.google.android.maps" />
+        <activity android:name=".Dashboard" android:label="Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="Map" android:label="Home &gt; Campus Map"></activity>
+
+        <activity android:name="Uni" android:theme="@style/UniTheme" android:label="Home &gt; Uni"></activity>
+        	<activity android:name="UniInfo" android:theme="@style/UniTheme" android:label="Home &gt; Uni &gt; University Info"></activity>
+        		<activity android:name="Buildings" android:theme="@style/UniTheme" android:label="Home &gt; Uni &gt; Uni Info &gt; Buildings"></activity>
+        		<activity android:name="Building" android:theme="@style/UniTheme" android:label="Uni &gt; Uni Info &gt; Buildings &gt; Building Info"></activity>
+        	<activity android:name="UniMy" android:theme="@style/UniTheme" android:label="Home &gt; Uni &gt; My Uni"></activity>
+        
+        <activity android:name="UPSU" android:theme="@style/UPSUTheme" android:label="Home &gt; UPSU"></activity>
+			<activity android:name="UPSUInfo" android:theme="@style/UPSUTheme" android:label="Home &gt; UPSU &gt; UPSU Info"></activity>
+				<activity android:name="Venues" android:label="Home &gt; UPSU &gt; UPSU Info &gt; Venues" android:theme="@style/UPSUTheme"></activity>
+        		<activity android:name="Venue" android:label="Home &gt; UPSU &gt; UPSU Info &gt; Venues &gt; Venue Info" android:theme="@style/UPSUTheme"></activity>
+        	<activity android:name="UPSUMy" android:theme="@style/UPSUTheme" android:label="Home &gt; UPSU &gt; My UPSU"></activity>
+        	<activity android:name="UPSUE" android:theme="@style/UPSUTheme" android:label="Home &gt; UPSU &gt; My UPSU &gt; Events"></activity>
+    </application>
+</manifest>

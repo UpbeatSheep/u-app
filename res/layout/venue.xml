@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="@dimen/building_margin" android:paddingLeft="@dimen/building_margin" android:paddingTop="@dimen/building_margin" android:paddingRight="15dip">
+    <TextView android:text="TextView" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txt_building_name" android:textSize="25dip"></TextView>
+    <ImageView android:id="@+id/img_building_image"  android:layout_height="@dimen/tile_height" android:scaleType="centerCrop" android:layout_marginTop="@dimen/tile_margin" android:layout_marginBottom="@dimen/tile_margin" android:src="@drawable/initial" android:layout_width="wrap_content" ></ImageView>
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content" android:paddingRight="15dip">
+      
+            <TextView android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" android:id="@+id/txt_building_desc" android:textSize="15dip"></TextView>
+    
+    </ScrollView>
+</LinearLayout>
